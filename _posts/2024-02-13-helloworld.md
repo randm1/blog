@@ -3,7 +3,7 @@ layout: post
 title: Hello, World!
 header: Hello, World!
 description: My first post
-permalink: /blog/hello-world
+permalink: /blog/hello-world/
 
 ---
 
