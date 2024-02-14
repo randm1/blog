@@ -3,7 +3,7 @@ layout: default
 title: Blog
 header: Header to be thought of
 description: A collection of my blog posts.
-permalink; /blog/
+permalink: /blog/
 ---
 
 <ul>
