@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Blog
+header: Header to be thought of
+description: A collection of my blog posts.
+permalink; /blog/
 ---
-<h1>Latest Posts</h1>
 
 <ul>
   {% for post in site.posts %}
