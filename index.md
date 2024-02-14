@@ -1,11 +1,15 @@
 ---
 title: Home
-header: stuff
+header: Welcome to my corner of the Internet!
+description: If it isn't obvious, this is very much in the process of being made.
 permalink: /
 layout: default
 ---
-<h1>Welcome to my corner of the Internet!</h1>
-<p1>Hello, I'm Samuel! this is my own websie where I put my thoushts and that kind of stuff. I am into technology, mostly the FOSS stuff, electronics, gaming, and learning guitar.</p1>
+
+<div class="wrapper">
+  <p>Hello, I'm Samuel! this is my own websie where I put my thoushts and that kind of stuff. I am into technology, mostly the FOSS stuff, electronics, gaming, and learning guitar.
+  </p>
+</div>
 
 <!--<div markdown="1" class="wrapper">-->
 
