@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Hello, World!
+header: Hello, World!
+description: My first post
+permalink: /blog/hello-world
+
 ---
 
 Hello, World!
