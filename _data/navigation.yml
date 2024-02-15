@@ -4,3 +4,5 @@
   link: /about/
 - name: Blog
   link: /blog/
+-name: Mastodon
+  link: <a rel="me" href="https://fosstodon.org/@randm">Mastodon</a>
