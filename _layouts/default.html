@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}" />
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
     <header>
@@ -13,8 +13,10 @@
       <h1>{{ page.header }}</h1>
       <p>{{ page.description }}</p>
     </header>
-    <main>
-      {{ content }}
-    </main>
+    <section id="wrapper">
+      <main>
+        {{ content }}
+      </main>
+    </section>
   </body>
 </html>
