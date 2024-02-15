@@ -1,8 +1,12 @@
 ---
-layout: default
-title: About
+title: About Me
+header: About
+description: A little bit about me.
 permalink: /about/
+layout: default
 ---
-# About page
+# About Me
 
-Hello! =)
+<div class="wrapper">
+TODO
+</div>
