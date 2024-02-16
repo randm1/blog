@@ -1,14 +1,10 @@
 <nav class="wrapper blog-data">
-  <span>
-    {% for item in site.data.navigation %}
-        {% if item.link == page.url %}
-        <a class="nav-current" href="{{ item.link }}">{{ item.name }}</a>
-        {% elsif page.url != item.link %}
-        <a href="{{ item.link }}">{{ item.name }}</a>
-        {% endif %}
-    {% endfor %}
-  </span>
-  <span>
-    <a rel="me" href="https://fosstodon.org/@randm">Mastodon</a>
-  </span>
+  {% for item in site.data.navigation %}
+      {% if item.link == page.url %}
+      <a class="nav-current" href="{{ item.link }}">{{ item.name }}</a>
+      {% elsif page.url != item.link %}
+      <a href="{{ item.link }}">{{ item.name }}</a>
+      {% endif %}
+  {% endfor %}
+  <a rel="me" href="https://fosstodon.org/@randm">Mastodon</a>
 </nav>
