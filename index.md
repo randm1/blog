@@ -11,8 +11,6 @@ layout: default
   </p>
 </div>
 
-<!--<div markdown="1" class="wrapper">-->
-
 {% for post in site.posts limit:3 %}
 <article class="posts wrapper">
   <p class="blog-data"><a href="{{ post.url }}"><b>{{ post.title }}</b></a></p>
@@ -20,4 +18,3 @@ layout: default
   <small>{{ post.date | date: "%B %d, %Y" }}</small>
 </article>
 {% endfor %} 
-<!--</div>-->
