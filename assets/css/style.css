@@ -1,7 +1,7 @@
 :root {
     /* Set sans-serif & mono fonts */
-    --sans-font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    --mono-font: "Mononoki Nerd Font","IBM Plex Mono","Roboto Mono","Ubuntu Mono","Fira Code","Overpass Mono", Monaco,"Droid Sans Mono",monospace;
+    --sans-font: Avantgarde,"TeX Gyre Adventor","URW Gothic L",sans-serif;
+    --mono-font: Cousine,"Roboto Mono","Ubuntu Mono","Fira Code","Overpass Mono", Monaco,"Droid Sans Mono",monospace;
     /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
     --base-fontsize: 1rem;
     /* Major third scale progression - see https://type-scale.com/ */
@@ -11,11 +11,8 @@
 
     --code-bg: #457B9D;
     --bg: #457B9D;
-    --accent-bg: #E63946;
     --text: #1D3557;
     --text-light: #F1FAEE;
-    --border: #E63946;
-    --border-dark: #ad2934;
     --accent:#E63946;
     --code:#787c99;
     --code-bg: #F1FAEE;
@@ -69,7 +66,7 @@ ul.wrapper{
 nav a {
     background: var(--code-bg);
     margin: .7rem .3rem; 
-    color: var(--border) !important;
+    color: var(--accent);
     border-radius: 5px;
     display: inline-block;
     padding: .3rem .6rem;
@@ -77,14 +74,26 @@ nav a {
     transition: .4s;
 }
 nav a.nav-current {
-    background: var(--border);
+    background: var(--accent);
     color: var(--text-light) !important;
     font-weight: bold;
     opacity: 1;
 }
 nav a:hover {
-    border-color: var(--border-dark) !important;
-    background: var(--border-dark);
+    background: var(--accent);
+    color: var(--text-light);
+}
+
+/* Social List */
+social a {
+    background: var(--code-bg);
+    margin: .7rem .3rem; 
+    color: var(--accent);
+    border-radius: 5px;
+    display: inline-block;
+    padding: .3rem .6rem;
+    text-decoration: none;
+    transition: .4s;
 }
 
 /* Buttons */
