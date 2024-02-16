@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-header: Header to be thought of
+header: Blog
 description: A collection of my blog posts.
 permalink: /blog/
 ---
