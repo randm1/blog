@@ -8,5 +8,15 @@ layout: default
 # About Me
 
 <div class="wrapper">
-Hello! I'm Randm, but you can call me by my real name, Sam, if ya want to. I'm a Christian ✝️, FOSS enthusiast (not much of a dev but I'm trying to get into it), beginner guitarist 🎸, gamer 🎮, and I'm getting into blogging 📝.
+  Hello, I'm Samuel, but you can call me Sam. Hopefully you can learn a little bit about me here.
+</div>
+
+# Hobbies and Intrests
+
+<div class="wrapper">
+  Guitar 🎸
+  FOSS 🐧
+  Video Games 🎮
+  Electronics 📟
+  Trying new things ⭐️
 </div>
