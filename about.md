@@ -1,7 +1,6 @@
 ---
 title: About Me
 header: About
-description: A little bit about me.
 permalink: /about/
 layout: default
 ---
