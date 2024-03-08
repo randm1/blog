@@ -2,7 +2,7 @@
 title: About Me
 header: About
 permalink: /about/
-layout: post
+layout: default
 ---
 # About Me
 
@@ -11,9 +11,6 @@ layout: post
 </div>
 
 # Hobbies and Intrests
-
-<div class="wrapper">
-
   - Guitar 🎸
 
   - FOSS 🐧
@@ -24,4 +21,3 @@ layout: post
 
   - Trying new things ⭐️
 
-</div>
