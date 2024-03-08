@@ -7,7 +7,7 @@ layout: default
 # About Me
 
 <div class="wrapper">
-  Hello, I'm Samuel, but you can call me Sam. Hopefully you can learn a little bit about me here.
+  Hello, I'm Samuel, but you can call me Sam. Hopefully you can learn a little bit about me here. test
 </div>
 
 # Hobbies and Intrests
