@@ -2,7 +2,7 @@
 title: About Me
 header: About
 permalink: /about/
-layout: default
+layout: post
 ---
 # About Me
 
