@@ -32,3 +32,5 @@ As of right now, I still want to:
 * Add more awesome web badges
 * Organize my blog page
 * Get or make a proper SVG logo
+
+This is day 3 of [#100DaysToOffload](https://100daystooffload.com/)
