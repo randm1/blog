@@ -1,0 +1,42 @@
+.mastodon-comment{
+    background-color: var(--code-bg);
+    padding: 1rem;
+  }
+  div.comment-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  img.avatar{
+    width: 5rem;
+    margin-right: 1rem;
+  }
+  
+  div.mastodon-username{
+    font-size: .9rem;
+  }
+  
+  .mastodon-comment-content{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-bottom: .6rem;
+  }
+  
+  .reply-child {
+    margin-left: 3rem;
+  }
+  
+  .comment-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  
+  .comment-options *{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
