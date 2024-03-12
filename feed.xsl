@@ -18,7 +18,7 @@ exclude-result-prefixes="atom"
       <header>
         <div class="header-container">
           <a href="/">
-            <img class="logo" src="/assets/img/placeholder.png" width="80" height="60.5" viewBox="0 0 80 60.5">
+            <img class="logo" src="/assets/img/placeholder.png" width="80" height="60.5" viewBox="0 0 80 60.5"></img>
           </a>
         {% include navigation.html %}
         </div>
