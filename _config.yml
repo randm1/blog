@@ -1,3 +1,10 @@
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# RSS feeds
+feed_items: 20
+feed:
+  posts_limit: 20
+  tags: 
+    path: "feeds/"
