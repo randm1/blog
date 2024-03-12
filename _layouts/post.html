@@ -4,12 +4,30 @@ layout: default
 {% capture count_words %}
 {{ content | number_of_words }}
 {% endcapture %}
+{% capture time_words %}
+{{count_words | divided_by: 5}}
+{% endcapture %}
 
-<div class="wrapper blog-data">
-	<span>📆 {{ page.date | date_to_string }}</span><span> 📕 {{ count_words }} words</span>
-</div>
-<div class="wrapper">
+<aside class="blog-data">
+	<span>📆 {{ page.date | date_to_string }}</span>
+	<span> 📕 {{ count_words }} words ⏳ {{ time_words | divided_by: 60 }} min.</span>
+	<div class="tags">
+		<ul>
+			<li>🏷️</li>
+			{% for tag in page.tags %}
+			<li><a href="/more/tags/{{ tag }}">{{ tag }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</aside>
+<article>
 
 {{ content }}
 
-</div>
+</article>
+
+<article>
+<h2 id="comments">Comments</h2> 
+<p>If you have something to say, leave a comment, or <a href="/contact">contact me</a> ✉️ instead</p>
+{% include comments.html %}
+</article>
