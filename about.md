@@ -13,8 +13,9 @@ Hello, I'm Samuel, but you can call me Sam. I was born in **Texas**, but have li
 Most of my intrests are in the technology landsape, including software (FOSS in particular), electronics, video games, and finding my way around playing the guitar. I am a proud Christian, too.
 </aside>
 
-<div class="flex-container">
-<article markdown="1">
+<br>
+
+<aside markdown="1">
 ## Hobbies and Intrests
 
 * Guitar 🎸
@@ -24,14 +25,14 @@ Most of my intrests are in the technology landsape, including software (FOSS in 
 * Video Games 🎮
 
 * Electronics 📟
+</aside>
 
-* Trying new things ⭐️
-</article>
+<br>
 
-<article markdown="1">
 ## What I Use
-
-**On The Go**
+<div class="flex-container">
+<article markdown="1">
+## Hardware
 
 * iPhone 15 Pro Max
 
@@ -39,9 +40,21 @@ Most of my intrests are in the technology landsape, including software (FOSS in 
 
 * Steam Deck
 
-**At Home**
+* A desktop I built myself
+</article>
 
-* Arch Linux (Desktop)
+<article markdown="1">
+## Software
+
+* Arch Linux: My go-to distro
+
+* KDE Plasma: My desktop enviornment
+
+* Firefox: My web browser
+
+* Thunderbird: My Email Client
+
+* Proton Mail: Secure & private Email provider
 </article>
 </div>
 
