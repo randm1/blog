@@ -10,7 +10,7 @@ layout: default
 
 <aside class="blog-data">
 	<span>📆 {{ page.date | date_to_string }}</span>
-	<span> 📕 {{ count_words }} words ⏳ {{ time_words | divided_by: 60 }} min.</span>
+	<span> 📕 {{ count_words }} words</span>
 	<div class="tags">
 		<ul>
 			<li>🏷️</li>
@@ -20,12 +20,12 @@ layout: default
 		</ul>
 	</div>
 </aside>
-<article>
+<aside>
 
 {{ content }}
 
-</article>
-
+</aside>
+<br>
 <article>
 <h2 id="comments">Comments</h2> 
 <p>Leave a Comment!</p>

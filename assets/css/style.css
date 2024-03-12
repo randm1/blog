@@ -299,6 +299,12 @@ div.tags, div.tags *{
     display: inline;
 }
 
+div.header-container{
+    box-shadow: 6px 8px var(--accent-light);
+    padding: 5px;
+    margin: 12px;
+}
+
 .tag-cloud {
     display: flex; 
     align-items: center; 
@@ -316,17 +322,16 @@ header nav a, nav a:visited{
     margin: .2rem .5rem;
     padding: .1rem 1rem;
     box-shadow: 6px 8px var(--accent-light);
-    transition: .4s;
 }
 
 header nav a:hover {
-    background-color: var(--border);
-    color: var(--bg);
+    background-color: var(--bg);
+    color: var(--accent-light);
 }
 
 header nav a.nav-current {
-    background-color: var(--border);
-    color: var(--bg);
+    background-color: var(--bg);
+    color: var(--accent-light);
     text-decoration: underline;
 }
 @media screen and (max-width: 600px) {
@@ -460,7 +465,7 @@ details[open] > :last-child {
 
 
 svg.logo {
-    background-color: #232433;
+    background-color: var(--code-bg);
     padding: .3rem;
     width: 82px;
     height: 82px;
@@ -483,6 +488,7 @@ footer {
     border-radius: 0;
     border: none;
     color: var(--accent);
+    font-style: none;
     display: inline;
     margin: 0; 
     padding: 0;
@@ -496,6 +502,7 @@ footer {
 .breadcrumb {
   padding: 1rem 0;
   justify-content: left;
+  font-style: italic;
 }
 
 .breadcrumb ul {
@@ -514,10 +521,10 @@ footer {
 .breadcrumb li:not(:last-child)::after {
   display: inline-block;
   margin: 0 .25rem;
-  content: "→";
+  content: "►";
 }
 .breadcrumb li{
-text-transform: lowercase;
+text-transform: capitalize;
 }
 
 .flex-container {

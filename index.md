@@ -7,7 +7,7 @@ layout: default
 ---
 
 <article markdown="1">
-  <p>Hello, I'm Samuel! this is my own websie where I put my thoushts and that kind of stuff. Feel free to look around!</p>
+  <p>Hello, I'm Samuel! this is my own website where I post stuff. Feel free to look around!</p>
 </article>
 
 <article markdown="1">

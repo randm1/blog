@@ -2,6 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+include:
+  - tags
+
 exclude:
   - build-site.sh
 
