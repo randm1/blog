@@ -2,6 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+exclude:
+  - build-site.sh
+
 # RSS feeds
 feed_items: 20
 feed:

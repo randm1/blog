@@ -4,6 +4,9 @@ title: Why Did I Make a Website?
 header: Why did I make a website?
 description: I cover why and a little bit of how I made this website.
 permalink: /blog/why-did-i-make-a-website/
+host: fosstodon.org
+username: randm
+com_id: 111944194615907162
 ---
 As my first blog post, I don't know much about how to get started, so I'm just gonna dive in.
 

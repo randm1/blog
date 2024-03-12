@@ -5,17 +5,48 @@
     <header>
       <div class="header-container">
         <a href="/">
-          <img class="logo" src="/assets/img/placeholder.png" width="80" height="60.5" viewBox="0 0 80 60.5">
+          <img class="logo" width="80" height="60.5" viewBox="0 0 80 60.5" src="/assets/img/placeholder.png">
         </a>
         {% include navigation.html %}
       </div>
-    <section id="wrapper">
-      <main>
+        <script src="/assets/js/toggleAnimation.js"></script>
+        <script>
+          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <noscript>
+          <small>If you wish to disable the animation background you can do it easily with javascript. You can block media elements with UBlock origin or do it <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#user_preferences">manually</a></small>
+        </noscript>
+    </header>
+    <main id="content">
+      {% if page.url != "/"%}
+      {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+      <nav aria-label="Breadcrumb" class=breadcrumb>
+        <ul>
+          <li><a href="/">home</a></li>
+          {% for crumb in crumbs offset: 1 %}
+          {% if forloop.last %}
+          <li>{{ crumb | replace:'-',' ' | lowercase }}</li>
+          {% else %}
+          <li>
+            <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | lowercase }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      {% endif %}
+      <section>
+        <h1>{{ page.header }}</h1>
+        <p class="description">{{ page.description }}</p>
         {{ content }}
-      </main>
-    </section>
+      </section>
+      <section id="sidebar">
+        {% include recent-posts.html %}
+        {% include out.html %}
+        {% include footer_badges.html %}
+      </section>
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
-  <footer>
-    {% include footer.html %}
-  </footer>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Blog | randm
 header: Blog
 description: A collection of my blog posts.
 permalink: /blog/

@@ -1,0 +1,15 @@
+- text: "RSS feed"
+  url: "/feed.xml" 
+  src: "/assets/img/badges/rss.gif"
+
+- text: "Anything but Chrome"
+  url: "https://firefox.com"
+  src: "/assets/img/badges/firefox.webp"
+
+- text: "Join the Fediring"
+  url: "https://fediring.net"
+  src: "/assets/img/badges/fediring.gif"
+
+- text: "Say no to web3"
+  url: "https://thewebisfucked.com" 
+  src: "/assets/img/badges/web3.gif" 

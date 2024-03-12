@@ -1,20 +1,24 @@
 ---
-title: Home
+title: Home | randm
 header: Welcome to my corner of the Internet!
-description: If it isn't obvious, this is very much in the process of being made.
+description: Just blog where I put my thoughts about stuff.
 permalink: /
 layout: default
 ---
 
-<div class="wrapper">
-  <p>Hello, I'm Samuel! this is my own websie where I put my thoushts and that kind of stuff. I am into technology, mostly the FOSS stuff, electronics, gaming, and learning guitar.
-  </p>
-</div>
+<article markdown="1">
+  <p>Hello, I'm Samuel! this is my own websie where I put my thoushts and that kind of stuff. Feel free to look around!</p>
+</article>
 
-{% for post in site.posts limit:3 %}
-<article class="posts wrapper">
-  <p class="blog-data"><a href="{{ post.url }}"><b>{{ post.title }}</b></a></p>
+<article markdown="1">
+## Latest blogs
+<div class="flex-container">
+{% for post in site.posts limit:5 %}
+<article>
+  <h3><a href="{{ post.url }}"><b>{{ post.title }}</b></a></h3>
   <div>{{ post.description | strip_html | strip_newlines }}</div>
   <small>{{ post.date | date: "%B %d, %Y" }}</small>
 </article>
 {% endfor %} 
+</div>
+</article>

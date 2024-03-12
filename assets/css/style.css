@@ -244,6 +244,7 @@ input[type="button"] {
   border: none;
   border-radius: 0px;
   display: inline-block;
+  box-shadow: 6px 8px var(--accent-light);
   background: var(--accent);
   /*font-size: 1rem;*/
   color: var(--bg);
@@ -405,6 +406,7 @@ article {
 aside {
     background-color: var(--code-bg);
     padding: .2rem 1rem;
+    box-shadow: 6px 8px var(--accent);
 }
 
 article.post_embed{
@@ -530,6 +532,7 @@ gap: 1rem;
     display: flex;
     flex-direction: column;
     background-color: var(--code-bg);
+    box-shadow: 6px 8px var(--accent-light);
     padding: 1rem;
     border-radius: 0px;
     margin: 0;
