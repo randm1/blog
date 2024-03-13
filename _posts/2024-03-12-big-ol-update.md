@@ -7,7 +7,7 @@ permalink: /blog/big-ol-update/
 layout: post
 host: fosstodon.org
 username: randm
-com_id:
+com_id: 112085991976566725
 ---
 If you have looked at one of my two posts here before and remember this blog exists, you probably noticed that it looks completely different. I have also implemented some new features to this blog. Enjoy!
 
