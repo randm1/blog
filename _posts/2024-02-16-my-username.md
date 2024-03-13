@@ -2,7 +2,7 @@
 layout: post
 title: My Username
 header: My Username
-description: How did I come to my username?
+description: How did I come up with my username?
 permalink: /blog/my-username/
 ---
 
