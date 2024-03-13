@@ -12,4 +12,8 @@
 
 - text: "Say no to web3"
   url: "https://thewebisfucked.com" 
-  src: "/assets/img/badges/web3.gif" 
+  src: "/assets/img/badges/web3.gif"
+
+- text: "Powered by Dr. Pepper"
+  url: "/"
+  src: "/assets/img/badges/drpepper.gif"
