@@ -84,7 +84,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  i18n
   jekyll (~> 4.2)
   jekyll-feed
   jekyll-redirect-from
