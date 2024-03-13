@@ -1,19 +1,35 @@
+- text: "Have a smile"
+  url: "/"
+  src: "/assets/img/web_buttons/smile.gif"
+
 - text: "RSS feed"
   url: "/feed.xml" 
-  src: "/assets/img/badges/rss.gif"
+  src: "/assets/img/web_buttons/rss.gif"
+
+- text: "Choose Christ Now"
+  url: "/"
+  src: "/assets/img/web_buttons/christnow.gif"
 
 - text: "Anything but Chrome"
   url: "https://firefox.com"
-  src: "/assets/img/badges/firefox.webp"
+  src: "/assets/img/web_buttons/firefox.webp"
 
 - text: "Join the Fediring"
   url: "https://fediring.net"
-  src: "/assets/img/badges/fediring.gif"
+  src: "/assets/img/web_buttons/fediring.gif"
+
+- text: "Use Linux"
+  url: "/"
+  src: "/assets/img/web_buttons/linuxnow.jpg"
+
+- text: "This is a no-shit website"
+  url: "/"
+  src: "/assets/img/web_buttons/noshit.gif"
 
 - text: "Say no to web3"
   url: "https://thewebisfucked.com" 
-  src: "/assets/img/badges/web3.gif"
+  src: "/assets/img/web_buttons/web3.gif"
 
 - text: "Powered by Dr. Pepper"
   url: "/"
-  src: "/assets/img/badges/drpepper.gif"
+  src: "/assets/img/web_buttons/drpepper.gif"
