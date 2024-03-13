@@ -31,7 +31,7 @@ I have moved this website from my own [Linode](https://linode.com) server to jus
 
 ## TODO
 As of right now, I still want to:
-* Add thumbnails for social media embeds
+* ~~Add thumbnails for social media embeds~~
 * Add more awesome web badges
 * Organize my blog page
 * Get or make a proper SVG logo
