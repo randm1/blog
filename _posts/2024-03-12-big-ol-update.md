@@ -26,6 +26,9 @@ You can now view comments directly on this blog! Comments are made through Masto
 ## Openring
 [Openring](https://sr.ht/~sircmpwn/openring/) is this cool piece of software that generates a webring based off RSS feeds. Basically, you just give it the feed urls of the blogs you want to include, then tell it to generate what you want. If you want to implement it in your Jekyll site, check out this [guide](https://btxx.org/posts/openring/).
 
+## Using Vercel
+I have moved this website from my own [Linode](https://linode.com) server to just deploying via [Vercel](https://vercel.com). It makes it a whole lot easier to me, because rather than editing on a machiene, pushing it to my git repository, ssh-ing into the server, pulling from the git repo, then deploying, I can just edit, push, then done. I don't know about you, but that sounds a lot easier. I am still planning on using that Linode for something, so if you have any cool ideas feel free to leave a comment.
+
 ## TODO
 As of right now, I still want to:
 * Add thumbnails for social media embeds
