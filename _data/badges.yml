@@ -1,5 +1,5 @@
 - text: "Have a smile"
-  url: "/"
+  url: "none"
   src: "/assets/img/web_buttons/smile.gif"
 
 - text: "RSS feed"
@@ -7,11 +7,11 @@
   src: "/assets/img/web_buttons/rss.gif"
 
 - text: "Choose Christ Now"
-  url: "/"
+  url: "none"
   src: "/assets/img/web_buttons/christnow.gif"
 
 - text: "Anything but Chrome"
-  url: "https://firefox.com"
+  url: "none"
   src: "/assets/img/web_buttons/firefox.webp"
 
 - text: "Join the Fediring"
@@ -19,11 +19,11 @@
   src: "/assets/img/web_buttons/fediring.gif"
 
 - text: "Use Linux"
-  url: "/"
+  url: "none"
   src: "/assets/img/web_buttons/linuxnow.jpg"
 
 - text: "This is a no-shit website"
-  url: "/"
+  url: "none"
   src: "/assets/img/web_buttons/noshit.gif"
 
 - text: "Say no to web3"
@@ -31,5 +31,5 @@
   src: "/assets/img/web_buttons/web3.gif"
 
 - text: "Powered by Dr. Pepper"
-  url: "/"
+  url: "none"
   src: "/assets/img/web_buttons/drpepper.gif"
