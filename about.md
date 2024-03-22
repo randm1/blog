@@ -13,7 +13,7 @@ Hello, I'm Samuel, but you can call me Sam. I was born in **Texas**, but have li
 Most of my intrests are in the technology landsape, including software (FOSS in particular), electronics, video games, and finding my way around playing the guitar. I am a proud Christian, too.
 </aside>
 
-<br>
+<br/>
 
 <aside markdown="1">
 ## Hobbies and Intrests
@@ -27,7 +27,7 @@ Most of my intrests are in the technology landsape, including software (FOSS in 
 * Electronics 📟
 </aside>
 
-<br>
+<br/>
 
 ## What I Use
 <div class="flex-container">
@@ -58,7 +58,7 @@ Most of my intrests are in the technology landsape, including software (FOSS in 
 </article>
 </div>
 
-<br>
+<br/>
 
 ## About this website
 <aside markdown="1">
@@ -66,13 +66,3 @@ This site was generated using **[Jekyll](https://jekyllrb.com/)** and deployed u
 
 This site's source code can be seen on **[GitHub](https://github.com/randm1/blog)**.
 </aside>
-
-<br>
-
-## Get in Touch
-<aside class="wrapper" markdown="1">
-If you want to get in touch with me, you can:
-* [Email me](mailto:samuel.bmc@proton.me)
-* [Signal me](https://signal.me/#eu/Pcbyy-zvYLrgiMnh5fW9P4chgY53k8tXtONWAXtpdXu05XuAQi5C9LRSVfHf_ZRo)
-</aside>
-<br>

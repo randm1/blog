@@ -4,11 +4,11 @@
 <noscript>
     <p>You need JavaScript to view comments here.</p>
 </noscript>
-    <!--<a class="button" href="https://{{page.host}}/@{{ page.username }}/{{ page.com_id }}">View on Mastodon</a><br>-->
+<a class="button" href="mailto:samuel.bmc@proton.me?subject=Re:&#032{{ page.title | uri_escape }}">Reply via email (private)</a>
     <a class="button" id="load-comment">Load comments</a> 
 </div>
     <details style="box-shadow: 6px 8px var(--accent);">
-        <summary>Reply with Mastodon</summary>
+        <summary>Reply with Fediverse</summary>
         <p>You can reply with Mastodon by pasting this URL into the search field of your client:</p>
         <pre><a href="https://{{ page.host }}/@{{ page.username }}/{{ page.com_id }}">https://{{ page.host }}/@{{ page.username }}/{{ page.com_id }}</a></pre>
     </details>
