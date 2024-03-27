@@ -4,7 +4,7 @@
 	<title>{{ page.title }}</title>
 	<meta name="description" content="{{ page.description }}" />
 	{% feed_meta %}
-	<link rel="stylesheet" href="/assets/css/style.css"/>
+	<link rel="stylesheet" id="stylesheet" type="text/css" href="/assets/css/style.css"></link>
 	<link rel="stylesheet" href="/assets/css/coding.css"/>
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png"/>
@@ -19,4 +19,10 @@
 	<meta name="twitter:image" content="{{ site.url }}/assets/img/banner.png"/>
 	<meta name="twitter:card" content="summary_large_image"/>
 	{% endif %}
+	<script>
+	function setStyleSheet(url){
+       var stylesheet = document.getElementById("stylesheet");
+       stylesheet.setAttribute('href', url);
+    }
+	</script>
 </head>

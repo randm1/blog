@@ -9,15 +9,15 @@
     /* Line height is set to the "Golden ratio" for optimal legibility */
     --line-height: 1.75;
 
-    --accent-bg: #2B3499;
-    --box: #1b3070;
-    --box-shadow: #7e94dd;
-    --accent:#596FB7;
-    --bg: #101d46;
-    --border: #596FB7;
-    --code:#787c99;
-    --text-light: #F6ECA9;
-    --text:#dee2c8;
+    --accent-bg: #000000;
+    --box: #000000;
+    --box-shadow: #000000;
+    --accent:#44ff00;
+    --bg: #000000;
+    --border:#44ff00;
+    --code:#000000;
+    --text-light: #44ff00;
+    --text:#44ff00;
 }
 
 *, *::before, *::after {
@@ -33,21 +33,15 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
-/* Dark mode */
-/*@media (prefers-color-scheme: dark) {*/
+
 @media not print {
     body {
         background-color: var(--bg);
-        /*background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("/assets/img/hd_bg.webp");*/
-        /*background-size: cover;*/
-        /*background-attachment: fixed;*/
-        /*background-position: center center;*/
     color:var(--text); }
     a {color: var(--accent);}
     a:visited {color: var(--accent);}
-    a:hover,a:focus{color: var(--box-shadow);}
+    a:hover,a:focus{color: var(--text);}
 }
-/*}*/
 @media (prefers-reduced-motion) {
     body{
         background:var(--bg);
@@ -193,12 +187,14 @@ input[type="button"] {
   border: none;
   border-radius: 0px;
   background: var(--accent);
+  /*font-size: 1rem;*/
   color: var(--bg);
   text-decoration: none;
   padding: .7rem .9rem;
   margin: .5rem .1rem;
   transition: .4s;
 }
+
 
 .blog-data span {
     display: block;
@@ -223,17 +219,18 @@ input[type="button"] {
 	padding: 1rem 3rem;
 }
 
+
 .button{
   border: none;
   border-radius: 0px;
   display: inline-block;
   box-shadow: 6px 8px var(--box-shadow);
   background: var(--accent);
+  /*font-size: 1rem;*/
   color: var(--bg);
   text-decoration: none;
   padding: .7rem .9rem;
   transition: .4s;
-  margin: 12px;
 }
 button a:visited, 
 button a:hover, 
@@ -251,9 +248,9 @@ button:hover, .button:hover, svg:hover{
     border: none;
     border-radius: 0px;
     display: inline-block;
-    background: #1fcd00;
-    box-shadow: 6px 8px #000000;
-    color: #000000;
+    background: #596FB7;
+    box-shadow: 6px 8px #7e94dd;
+    color: #596FB7;
     text-decoration: none;
     font-style: italic;
     padding: .7rem .9rem;
@@ -265,7 +262,7 @@ hacker-button a:visited,
 hacker-button a:hover, 
 a.hacker-button:visited, 
 a.hacker-button:hover{
-    color: #000000;
+    color: #101d46;
 }
 
 ul{
@@ -329,12 +326,12 @@ header nav a, nav a:visited{
 
 header nav a:hover {
     background-color: var(--bg);
-    color: var(--box-shadow);
+    color: var(--text-light);
 }
 
 header nav a.nav-current {
     background-color: var(--bg);
-    color: var(--box-shadow);
+    color: var(--text-light);
     text-decoration: underline;
 }
 @media screen and (max-width: 600px) {
@@ -396,6 +393,7 @@ a.post .post-title {
 
 a.post:hover{
     background-color: var(--box);
+    color: var(--text);
     border-radius: 0px;
     transition: .2s;
 }
@@ -466,7 +464,7 @@ details[open] > :last-child {
 }
 
 a.logo {
-    color: var(--box-shadow);
+    color: var(--text);
     font-size: 25px;
     font-weight: bold;
     font-style: italic;

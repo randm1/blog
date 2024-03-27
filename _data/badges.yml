@@ -18,10 +18,6 @@
   url: "https://fediring.net"
   src: "/assets/img/web_buttons/fediring.gif"
 
-- text: "Use Linux"
-  url: "none"
-  src: "/assets/img/web_buttons/linuxnow.jpg"
-
 - text: "This is a no-shit website"
   url: "none"
   src: "/assets/img/web_buttons/noshit.gif"
